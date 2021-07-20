@@ -23,11 +23,11 @@ li {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1rem 1rem;
   text-decoration: none;
   position: relative;
-  left:30px;
-  margin-right: 100px;
+  left:2rem;
+  margin-right: 6.25rem;
 
 }
 
@@ -48,7 +48,7 @@ h2{
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
-  padding-bottom: 10px;
+  padding-bottom: 0.6rem;
 }
 h3{
   font-family: 'Montserrat', sans-serif;
@@ -58,13 +58,13 @@ hr{
   border-style: dotted none none none;
   width: 5%;
   border-color:#EAF6F6;
-  border-width: 5px;
-  margin: 100px auto;
+  border-width: 0.3rem;
+  margin: 6.25rem auto;
 }
 a{
   color:#0D4647;
   font-family: 'Montserrat', sans-serif;
-  margin:10px 20px;
+  margin:0.6rem 1.25rem;
   text-decoration: none;
 }
 a:hover{
@@ -78,19 +78,19 @@ p{
 }
 .top-container{
     background-color: #E4F9F5;
-    padding-top: 100px;
+    padding-top: 6.25rem;
     position: relative;
 
 }
 .top-cloud{
   position: absolute;
-right: 300px;
+right: 18.75rem;
   top: 4em;
 }
 .bottom-cloud{
-bottom: 300px;
-left: 250px;
-  position: absolute;
+bottom: 18.75rem;
+left: 15.625rem;
+position: absolute;
 }
 .pro{
 text-decoration: underline;
@@ -105,33 +105,37 @@ text-decoration: underline;
 .code-img{
   width: 30%;
   float: left;
-  margin-right: 30px;
+  margin-right: 2rem;
 }
 .netflix-img{
   width: 25%;
   float: right;
-  margin-left: 30px;
+  margin-left: 2rem;
 }
 .skill-row{
   width:50%;
-  margin:100px auto 100px auto;
+  margin:6.25rem auto 6.25rem auto;
   text-align: left;
+  flex-basis: 40%
+}
+.skill-desc{
+
 }
 .contact-message{
   width:30%;
-  margin:100px auto;
+  margin:6.25rem auto;
 }
 .copyright{
   color: #EAF6F6;
   font-size: 0.85rem;
-  padding: 20px 0;
+  padding: 1.25rem 0;
 }
 .middle-container{
-margin: 40px auto 60px;
+margin: 2.5rem auto 3.75rem;
 }
 .bottom-container{
 background-color: #66BFBF;
-padding: 50px 0 20px;
+padding: 3.125rem 0 1.25rem;
 }
 .BUTTON_GSP {
    background: #11CDD4;
@@ -140,14 +144,14 @@ padding: 50px 0 20px;
    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
    background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
-   -webkit-border-radius: 8px;
-   -moz-border-radius: 8px;
-   border-radius: 8px;
+   -webkit-border-radius: 0.5rem;
+   -moz-border-radius: 0.5rem;
+   border-radius: 0.5rem;
    color: #FFFFFF;
    font-family: 'Merriweather', serif;
-   font-size: 20px;
+   font-size: 1.25rem;
    font-weight: 100;
-   padding: 14px;
+   padding: 0.8rem;
    -webkit-box-shadow: 1px 1px 0 0 #000000;
    -moz-box-shadow: 1px 1px 0 0 #000000;
    box-shadow: 1px 1px 0 0 #000000;
@@ -162,8 +166,8 @@ padding: 50px 0 20px;
 .BUTTON_GSP:hover {
    background: #30E3CB;
    border: solid #2BC4AD 1px;
-   -webkit-border-radius: 25px;
-   -moz-border-radius: 25px;
-   border-radius: 8px;
+   -webkit-border-radius: 1.5rem;
+   -moz-border-radius: 1.5rem;
+   border-radius: 0.5rem;
    text-decoration: none;
 }
