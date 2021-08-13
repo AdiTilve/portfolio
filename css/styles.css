@@ -23,13 +23,12 @@ body {
 /* Title */
 #title{
   background-color: #C6C2C5 ;
-
-  padding:5% 10% 6.5%;
+  padding:7% 10% 0%;
   text-align: left;
 }
 
 .title-text{
-  width:85%;
+  width:45%;
   color: #464D65;
 }
 
@@ -41,18 +40,19 @@ body {
 
 .title-img{
   position: absolute;
-  top: 16.5%;
+  top: 16%;
   right: 15%;
 }
 
 .title-btn{
     margin: 7% 5% 5% 0%;
-    padding: 1.5% 5%;
+    padding: 1% 3%;
 }
 
 @media (max-width:650px){
   #title{
     padding:5% 5% 4%;
+    position: relative;
   }
 
   .big-heading{
@@ -71,8 +71,8 @@ body {
 
   .title-img{
     width: 50%;
-    top:21%;
-    right:5%;
+    top:13%;
+    right:4%;
   }
 
 }
