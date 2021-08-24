@@ -22,8 +22,9 @@ body {
 
 /* Title */
 #title{
-  background-color: #C6C2C5 ;
-  padding:7% 10% 0%;
+  /* background-color: #C6C2C5; */
+  background-color: #BBE1FA;
+  padding:10% 10% 0%;
   text-align: left;
 }
 
@@ -40,18 +41,104 @@ body {
 
 .title-img{
   position: absolute;
-  top: 16%;
+  top: 23%;
   right: 15%;
 }
 
 .title-btn{
     margin: 7% 5% 5% 0%;
-    padding: 1% 3%;
+    padding: 1% 2%;
 }
 
+#footer{
+  background-color: #F8F9FA;
+  padding: 1% 0;
+  text-align: center;
+}
+
+.footer-icons {
+  margin-top: 2%;
+  margin-right: 2.5%;
+  margin-bottom: 2%;
+}
+
+.copyright-text{
+  font-size: 0.8rem;
+  margin-right: 2%;
+}
+
+/* Project.html */
+#title-project{
+  background-color: #BBE1FA;
+  padding:5% 10% 3%;
+  text-align: left;
+}
+
+.card{
+  width:25%;
+  margin: 1% 3% 4% 5%;
+  padding:0;
+}
+
+.title-btn-project{
+  padding:1% 4% 2% 3% ;
+  margin-top: 4%;
+}
+
+.project-heading-text{
+   width: 100%;
+   text-align: center;
+   border-bottom: 1px solid #002D5B;;
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+   font-size: 3.5rem;
+}
+
+.project-heading-text span{
+  background:#BBE1FA;
+  color: #002D5B;
+  padding:0 10px;
+}
+
+.project-heading{
+  padding-bottom:7%;
+}
+
+@media(max-width:1274px){
+  /* Project */
+  #title-project{
+    padding:6% 4% 3%;
+  }
+
+  .card{
+    width:35%;
+    margin:0 0 5rem 10%;
+  }
+
+  .project-heading-text{
+    font-size: 3rem;
+  }
+
+}
+@media(max-width:808px){
+  /* Project */
+  #title-project{
+    padding:6% 2% 3%;
+  }
+
+  .card{
+    width:40%;
+    margin:1% 0 5% 6.5%;
+  }
+
+  .project-heading-text{
+    font-size: 2.7rem;
+  }
+
+}
 @media (max-width:650px){
   #title{
-    padding:5% 5% 4%;
+    padding:6% 5% 4%;
     position: relative;
   }
 
