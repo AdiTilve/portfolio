@@ -1,18 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
 body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
 }
 
 /* Navigation bar */
-.nav-link{
+.nav-link-text{
   color: #000019;
   font-size: 1.2rem;
+  transition: color 0.3s ease;
 }
 
+.nav-link-text:hover{
+  /* color:#0C5CD3; */
+  color:#DC3545;
+}
+
+.navbar .navbar-brand span{
+  color:#DC3545;
+}
 .navbar-brand{
-  color: #000019;
+  color: #002D5B;
   font-size: 2.5rem;
   font-family: 'Palette Mosaic', cursive;
+}
+
+.navbar-brand:hover{
+  /* color:#0C5CD3; */
+  color:#DC3545;
 }
 
 .navbar{
@@ -24,29 +39,43 @@ body {
 #title{
   /* background-color: #C6C2C5; */
   background-color: #BBE1FA;
-  padding:10% 10% 0%;
+  padding:10% 0 8% 0%;
   text-align: left;
+  font-family: 'Ubuntu',sans-serif;
 }
 
-.title-text{
-  width:45%;
-  color: #464D65;
+.title-text1{
+  font-size:1.688rem;
+  font-weight: 500;
+}
+
+.title-text2{
+  font-size: 2.5rem;
+}
+
+.container .title-text2 em{
+  color:#DC3545;
 }
 
 .big-heading{
   color: #002D5B;
   padding-bottom: 3%;
-  font-size: 3.5rem;
+  font-size:4.5rem;
+}
+
+.container{
+  padding: 4% 0 0 4%;
 }
 
 .title-img{
   position: absolute;
-  top: 23%;
-  right: 15%;
+  right:12%;
+  top:25%;
+  /* bottom:1%; */
 }
 
 .title-btn{
-    margin: 7% 5% 5% 0%;
+    margin: 1% 5% 5% 0;
     padding: 1% 2%;
 }
 
@@ -54,6 +83,7 @@ body {
   background-color: #F8F9FA;
   padding: 1% 0;
   text-align: center;
+  position: relative;
 }
 
 .footer-icons {
@@ -74,12 +104,15 @@ body {
   text-align: left;
 }
 
-.card{
-  width:25%;
-  margin: 1% 3% 4% 5%;
+ .card{
+   margin:5% auto;
   padding:0;
+  text-align:center;
 }
 
+.card:hover{
+  box-shadow: 0 0 10px 2px rgba(0,0,0,0.5);
+}
 .title-btn-project{
   padding:1% 4% 2% 3% ;
   margin-top: 4%;
@@ -104,62 +137,40 @@ body {
   padding-bottom:7%;
 }
 
-@media(max-width:1274px){
+ @media(max-width:1274px){
   /* Project */
-  #title-project{
+  /* #title-project{
     padding:6% 4% 3%;
-  }
-
-  .card{
-    width:35%;
-    margin:0 0 5rem 10%;
   }
 
   .project-heading-text{
     font-size: 3rem;
   }
+  .card{
+    margin-bottom: 10%;
+  }*/
+
 
 }
-@media(max-width:808px){
-  /* Project */
-  #title-project{
-    padding:6% 2% 3%;
-  }
+@media(max-width:990px){
+  .title-img{
+    display: none;
+   }
 
-  .card{
-    width:40%;
-    margin:1% 0 5% 6.5%;
+  .container{
+    padding-left: 13%;
   }
-
-  .project-heading-text{
-    font-size: 2.7rem;
-  }
-
 }
 @media (max-width:650px){
-  #title{
-    padding:6% 5% 4%;
-    position: relative;
+  /* Project.html */
+  #title-project{
+    padding:9% 3% 3%;
   }
-
-  .big-heading{
-    color: #002D5B;
-    padding-bottom: 1.5%;
-    font-size: 2.5rem;
+  .card{
+    width:70%;
+    margin-bottom: 10%;
   }
-
-  p{
-    font-size: 0.8rem;
+  .project-heading{
+    padding-bottom:12%;
   }
-
-  .title-text{
-    width:45%;
-  }
-
-  .title-img{
-    width: 50%;
-    top:13%;
-    right:4%;
-  }
-
 }
